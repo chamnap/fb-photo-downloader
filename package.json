@@ -1,0 +1,21 @@
+{
+  "name": "fb-photo-downloader",
+  "version": "0.1.0",
+  "description": "Downloads all photos in facebook album",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=10.3.0"
+  },
+  "author": "Chamnap Chhorn <chamnapchhorn@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "commander": "^2.17.1",
+    "dotenv": "^6.2.0",
+    "lodash": "^4.17.11",
+    "puppeteer": "^1.11.0"
+  }
+}
